@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+html {
+	background: url(dU18gto.gif);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.box {
+	backdrop-filter: blur(50px);
+	-webkit-backdrop-filter: blur(50px);
+	max-width: 100%;
+	max-height: 100%;
+	box-shadow: 0 30px 40px rgba(0, 0, 0, .1);
+}
+.logo {
+	-webkit-animation: flicker 1500ms infinite alternate-reverse;
+	-webkit-animation-timing-function: step-start;
+	background-image: url(Yn2T9.png);
+	height: 236px;
+	margin: -60px auto auto auto;
+	width: 474px;
+}
+.error {
+	background: url(dU18gto.gif);
+	border-radius: 3px;
+	box-shadow: 0px 10px 100px 20px rgba(0, 172, 239, .1), inset 0px -2px 0px rgba(0, 172, 239, .15), inset 0px 2px 5px #000;
+	font-family: "Press Start 2P";
+	font-size: 7pt;
+	font-weight: 100;
+	margin: -40px auto auto auto;
+	padding: 10px;
+	border: 1px solid #ff00ea;
+	text-align: center;
+	width: 340px;
+}
+.error p {
+	color: rgba(0, 172, 239, .8);
+	padding: 0;
+	margin: 0;
+	z-index: 5;
+}
+@-webkit-keyframes flicker {
+	0% {
+		background-position: 0px 0px;
+	}
+	50% {
+		background-position: 0px 0px;
+	}
+	61% {
+		background-position: 0px 0px;
+	}
+	67% {
+		background-position: 0px 0px;
+	}
+	68% {
+		background-position: 0px -472px;
+	}
+	72% {
+		background-position: 0px -236px;
+	}
+	78% {
+		background-position: 0px -472px;
+	}
+	80% {
+		background-position: 0px -236px;
+	}
+	76% {
+		background-position: 0px -236px;
+	}
+	81% {
+		background-position: 0px -472px;
+	}
+	89% {
+		background-position: 0px -236px;
+	}
+	100% {
+		background-position: 0px -472px;
+	}
+}

@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'barthowheel';
+	src: url('//charon.gg/barthowheel.ttf') format('truetype');
+	font-weight: normal;
+}
+body {
+	font-family: 'barthowheel';
+	overflow: hidden;
+}
+footer {
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+.footer {
+	background: black;
+	height: 100px;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	color: #ff00c4;
+	border-top: 1px solid;
+}
+
