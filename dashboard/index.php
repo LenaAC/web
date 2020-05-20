@@ -77,24 +77,9 @@ function Create_Random_Code($Length = 8, $IN_Params = [])
     $IN_Params['Special_Character'] = isset($IN_Params['Special_Character']) ? $IN_Params['Special_Character'] : false;
 
     $Chars = '';
-    if($IN_Params['Lower_Case'])
-    {
-        $Chars .= "abcdefghijklmnopqrstuvwxyz";
-    }
-
-    if($IN_Params['Upper_Case'])
-    {
-        $Chars .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    }
-
     if($IN_Params['Number'])
     {
         $Chars .= "0123456789";
-    }
-
-    if($IN_Params['Special_Character'])
-    {
-        $Chars .= "!@#$%^&*()_-=+;:,.";
     }
 
     return substr(str_shuffle($Chars), 0, $Length);
@@ -104,7 +89,7 @@ function Create_Random_Code($Length = 8, $IN_Params = [])
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Memento mori | <?php echo $_SESSION['discord']['user-id'];?> | <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?></title>
+  <title>Memento mori | <?php echo $_SESSION['discord']['user-id'];?></title>
   <meta name="description" content="Official Charon Website">
   <meta name="keywords" content="Charon">
   <link href="../bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -228,7 +213,7 @@ body {
         <ul class="nav navbar-nav navbar-right">
          <?php if ($_SESSION['discord']['user-id'] === '706685677877723137' && $_SESSION['discord']['user-id'] === '706685677877723137' ) { ?>&nbsp;<li>&nbsp;<button type="button" onclick="window.location.href='admin'" class="btn btn-default navbar-btn">Admin</button></li><?php } else { header("Location: admin"); } ?>
          &nbsp;<li>&nbsp;<button type="button" onclick="window.location.href='https://charon.gg/'" class="btn btn-default navbar-btn" style="background: url(https://cdn.discordapp.com/avatars/<?php echo $_SESSION['discord']['user-id'];?>/<?php echo $_SESSION['discord']['avatar-id'];?>.png); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;"><i class="fa fa-picture-o" style="opacity: 10%;"></i></button></li>
-         <li><button style="border-left: 3px solid #ff00c4; border-right: 3px solid #ff00c4;" type="button" onclick="window.location.href='/'" class="btn btn-default navbar-btn"><i class="fa fa-user" style="opacity: 60%;"></i> <?php echo $_SESSION['discord']['username'];?>#<?php echo $_SESSION['discord']['discriminator'];?></li>&nbsp;<li><form method="post"><input style="display: none;" id="message" type="text" name="message"><button onClick="window.open('whitelist','windowname','width=600,height=600')" id="submit" class="btn btn-default navbar-btn" type="submit"><i style="color: #fff;" class="fa fa-plus"></i></a></form></button></li>
+         <li><button style="border-left: 3px solid #ff00c4; border-right: 3px solid #ff00c4;" type="button" onclick="window.location.href='/'" class="btn btn-default navbar-btn"><i class="fa fa-user" style="opacity: 60%;"></i> <?php echo $_SESSION['discord']['username'];?>#<?php echo $_SESSION['discord']['discriminator'];?></li>&nbsp;<li><form method="post"><input style="display: none;" id="message" type="text" name="message"><button onClick="window.open('whitelist','windowname','width=600,height=600')" id="submit" class="btn btn-default navbar-btn" type="submit"><i style="color: #fff;" class="fa fa-plus"></i> <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?></a></form></button></li>
          &nbsp;<li>&nbsp;<button type="button" onclick="window.location.href='logout'" class="btn btn-default navbar-btn">Logout</button></li></ul>
 </div>
 </div>
