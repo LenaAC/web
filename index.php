@@ -284,7 +284,7 @@ $response = curl_exec( $ch );
 			<a href="//dashboard.charon.gg"><img src="//charon.gg/black.png" style="display: none; -webkit-filter: drop-shadow(1px 1px 0 #ff00c4) drop-shadow(-1px -1px 0 #ff00c4); filter: drop-shadow(1px 1px 0 #ff00c4) drop-shadow(-1px -1px 0 #ff00c4); width: 186px; height: 49px;"></a><font color="white" style="font-size: 15px;">"uneasy lies the head that wears a crown"</font></i>
 			<div style="position: absolute; bottom: 0; right: 20px; width: 100px; text-align:right; padding: 10px;">
 				<div style="a:hover{color:#fff;}">
-					<a href="//secure-db.charon.gg"><?php echo   $ip = $_SERVER['REMOTE_ADDR']; ?></a>
+					<a href="//charon.gg/secure"><?php echo   $ip = $_SERVER['REMOTE_ADDR']; ?></a>
 				</div>
 				<footer>
 					<audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="https://cdn.discordapp.com/attachments/709303214435991747/711815036468854894/home.mp3" type="audio/mpeg"> villain</audio>
