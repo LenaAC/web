@@ -79,7 +79,7 @@
 			<!-- Header -->
 			<header id="header">
 				<h1>Charon</h1><font style="color:white;"></font>
-				<p><font style="color:white;"><a href="https://disboard.org/server/709579925824208966" style="text-decoration: none;" target="_blank"><i class='fab fa-discord' style='font-size:25px;color:white'></i></a> &nbsp;&bull;&nbsp; DISCORD: dread#1337 &nbsp;&bull;&nbsp; XMPP: charon@creep.im &nbsp;&bull;&nbsp; SIGNAL: (515) 468-2023</font></p>
+				<p><font style="color:white;"><a href="https://disboard.org/server/709579925824208966" style="text-decoration: none;" target="_blank"><i class='fab fa-discord' style='font-size:30px;color:white;'></i></a> &nbsp;&bull;&nbsp; DISCORD: dread#1337 &nbsp;&bull;&nbsp; XMPP: charon@creep.im &nbsp;&bull;&nbsp; SIGNAL: (515) 468-2023</font></p>
 				<nav>
 					<ul>
 						<li>
