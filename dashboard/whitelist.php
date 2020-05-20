@@ -29,13 +29,15 @@
         <link href="//charon.gg/favicon.png" rel="icon" type="images/png" />
       	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-<script>
-$(document).ready(function(){
-    if(testwindow  && !testwindow.closed){
-        self.setInterval("winClose()",500);
-    }
-});
-</script>
+        <script type="text/javascript">
+         function closeWindow() {
+            setTimeout(function() {
+            window.close();
+            }, 3000);
+            }
+
+            window.onload = closeWindow();
+            </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
