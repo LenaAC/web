@@ -35,7 +35,7 @@
        }
 
        body{
-        -webkit-animation: fadein 1.5s; //I use chrome
+        -webkit-animation: fadein 1.5s;
         background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75) ), url('/css/images/overlay-pattern.png');
         color: white;
        }
