@@ -9,7 +9,7 @@ require_once(PATH_INCLUDES . 'website.class.php');
 // global website variables.
 $website['discord_client'] = '709918560331366502';
 $website['discord_secret'] = 'c53i7576aFKdwcAOyLBAnRskptT-z8xA';
-$website['discord_scopes'] = 'identify','email';
+$website['discord_scopes'] = 'identify';
 $website['name']           = 'Charon';
 $website['redirect']       = 'https://charon.gg/';
 $website['access']         = 'https://dashboard.charon.gg/access';
