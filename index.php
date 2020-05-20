@@ -12,7 +12,7 @@ if (!$fp) {
      $webhookurl = "https://discordapp.com/api/webhooks/711843027190284318/BaF7pnNtKghfd0SMV02oM-FzqVveaqKiEvW7vDx2u1yz2Tozwk0y44pFmJgVtfmwtI5l";
 // $msg = "HOST ".$status[0]."";
      $msg = "```diff
-- HOST ".$status[0]." at ".date("l").", ".date("d F 20y")."```";
+- HOMEPAGE ".$status[0]." at ".date("l").", ".date("d F 20y")."```";
 $json_data = array ('content'=>"$msg");
 $make_json = json_encode($json_data);
 $ch = curl_init( $webhookurl );
@@ -30,7 +30,7 @@ $response = curl_exec( $ch );
      $webhookurl = "https://discordapp.com/api/webhooks/711843027190284318/BaF7pnNtKghfd0SMV02oM-FzqVveaqKiEvW7vDx2u1yz2Tozwk0y44pFmJgVtfmwtI5l";
      // $msg = "Host ".$status[1]."";
       $msg = "```diff
-+ Host ".$status[1]." at ".date("l").", ".date("d F 20y")."```";
++ HOMEPAGE ".$status[1]." at ".date("l").", ".date("d F 20y")."```";
 $json_data = array ('content'=>"$msg");
 $make_json = json_encode($json_data);
 $ch = curl_init( $webhookurl );
