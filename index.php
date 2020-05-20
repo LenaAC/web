@@ -2,7 +2,7 @@
 
 <!-- Host -->
 <?php
-$status =  GetServerStatus('charon.gg',yourwebsiteports);
+$status =  GetServerStatus('charon.gg',80,443);
 function GetServerStatus($site, $port)
 {
 $status = array("OFFLINE", "ONLINE");
@@ -23,7 +23,7 @@ curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1);
 curl_setopt( $ch, CURLOPT_HEADER, 0);
 curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec( $ch );
-    
+
 } else
   {
    //   echo "HOST ".$status[1]."<br>";
