@@ -71,7 +71,7 @@ $response = curl_exec( $ch );
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Memento mori | <?php $_SESSION['discord']['user-id'];?></title>
+  <title>Memento mori | <?php echo $_SESSION['discord']['user-id'];?></title>
   <meta name="description" content="Official Charon Website">
   <meta name="keywords" content="Charon">
   <link href="../bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
