@@ -32,7 +32,7 @@
 <script>
 $(document).ready(function(){
     if(testwindow  && !testwindow.closed){
-        self.setInterval("winClose()",2000);
+        self.setInterval("winClose()",500);
     }
 });
 </script>
