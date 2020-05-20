@@ -121,7 +121,7 @@ html, body {
 }
 .error-body .message p, .error-body .message a {
   font-size: 2em;
-  font-family: barthowheel;
+  font-family:'barthowheel';
   src: url('../barthowheel.ttf') format('truetype');
   text-shadow: 0 0 5px #afd33d;
   -webkit-filter: blur(0.8px);
