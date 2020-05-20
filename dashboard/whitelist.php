@@ -29,7 +29,17 @@
         <link href="//charon.gg/favicon.png" rel="icon" type="images/png" />
       	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-        <body style="background-color: #000; overflow: hidden;">
+        <style>
+        html{
+        background-color: black;
+       }
+
+       body{
+        -webkit-animation: fadein 1.5s; //I use chrome
+        background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75) ), url('/css/images/overlay-pattern.png');
+        color: white;
+       }
+       </style>
 
         <script type="text/javascript">
          function closeWindow() {
