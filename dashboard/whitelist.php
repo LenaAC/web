@@ -33,7 +33,7 @@
          function closeWindow() {
             setTimeout(function() {
             window.close();
-            }, 3000);
+          }, 6500);
             }
 
             window.onload = closeWindow();
@@ -57,7 +57,7 @@
 
 </script>
 
-    <html oncontextmenu="return false;">
+    <html style="backgroud-color: #000;" oncontextmenu="return false;">
 
     <body
 
