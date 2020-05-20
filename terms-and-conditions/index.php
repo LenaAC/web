@@ -87,7 +87,7 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container" style="padding-top:100px;">
+	<div class="container" style="padding-top:100px;padding-bottom:50px;">
 		<div style="padding: 15px;" class="well">
 			<center>
 				<a href="../">
