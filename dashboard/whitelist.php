@@ -29,6 +29,8 @@
         <link href="//charon.gg/favicon.png" rel="icon" type="images/png" />
       	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
+        <body style="background-color: #000; overflow: hidden;">
+
         <script type="text/javascript">
          function closeWindow() {
             setTimeout(function() {
@@ -57,7 +59,7 @@
 
 </script>
 
-    <html style="backgroud-color: #000;" oncontextmenu="return false;">
+    <html oncontextmenu="return false;">
 
     <body
 
