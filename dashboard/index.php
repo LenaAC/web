@@ -68,10 +68,43 @@ $response = curl_exec( $ch );
   $_SESSION['discord']['user-id'];
   ?>
 
+<?php
+function Create_Random_Code($Length = 8, $IN_Params = [])
+{
+    $IN_Params['Upper_Case']        = isset($IN_Params['Upper_Case']) ? $IN_Params['Upper_Case'] : true;
+    $IN_Params['Lower_Case']        = isset($IN_Params['Lower_Case']) ? $IN_Params['Lower_Case'] : true;
+    $IN_Params['Number']            = isset($IN_Params['Number']) ? $IN_Params['Number'] : true;
+    $IN_Params['Special_Character'] = isset($IN_Params['Special_Character']) ? $IN_Params['Special_Character'] : false;
+
+    $Chars = '';
+    if($IN_Params['Lower_Case'])
+    {
+        $Chars .= "abcdefghijklmnopqrstuvwxyz";
+    }
+
+    if($IN_Params['Upper_Case'])
+    {
+        $Chars .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    }
+
+    if($IN_Params['Number'])
+    {
+        $Chars .= "0123456789";
+    }
+
+    if($IN_Params['Special_Character'])
+    {
+        $Chars .= "!@#$%^&*()_-=+;:,.";
+    }
+
+    return substr(str_shuffle($Chars), 0, $Length);
+}
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Memento mori | <?php echo $_SESSION['discord']['user-id'];?></title>
+  <title>Memento mori | <?php echo $_SESSION['discord']['user-id'];?> | <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?></title>
   <meta name="description" content="Official Charon Website">
   <meta name="keywords" content="Charon">
   <link href="../bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
