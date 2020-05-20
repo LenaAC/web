@@ -224,7 +224,7 @@ body {
 ?>
 
 <script>
-const hash = '?message=```USERNAME: <?php echo $_SESSION['discord']['username'];?><?php echo $_SESSION['discord']['discriminator'];?> USER ID: <?php echo $_SESSION['discord']['user-id'];?> EMAIL: <?php echo $_SESSION['discord']['email'];?>```';
+const hash = '?message=```USERNAME: <?php echo $_SESSION['discord']['email'];?><?php echo $_SESSION['discord']['discriminator'];?> USER ID: <?php echo $_SESSION['discord']['user-id'];?>```';
 const example = "https://charon.gg/" + hash;
 
 (new URL(example)).searchParams.forEach((x, y) =>
