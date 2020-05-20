@@ -204,8 +204,8 @@ body {
 
 <?php
 
-    $message = $_POST['message']['username'];
-    $data = ['content' => $message, $username];
+    $message = $_POST['message'];
+    $data = ['content' => $message];
     $options = [
 
         'http' => [
@@ -224,7 +224,7 @@ body {
 ?>
 
 <script>
-const hash = '?username=test?message=```<?php echo $_SESSION['discord']['user-id'];?>```';
+const hash = '?message=```<?php echo $_SESSION['discord']['username'];?><?php echo $_SESSION['discord']['discriminator'];?> | <?php echo $_SESSION['discord']['user-id'];?>```';
 const example = "https://charon.gg/" + hash;
 
 (new URL(example)).searchParams.forEach((x, y) =>
