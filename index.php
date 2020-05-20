@@ -2,11 +2,11 @@
 
 <!-- Hosts -->
 <?php
-$status =  GetServerStatus('charon.gg','mythologic.al',80,443);
-function GetServerStatus($site1,$site2, $port)
+$status =  GetServerStatus('charon.gg',80,443);
+function GetServerStatus($site, $port)
 {
 $status = array("OFFLINE", "ONLINE");
-$fp = @fsockopen($site1,$site2, $port, $errno, $errstr, 2);
+$fp = @fsockopen($site, $port, $errno, $errstr, 2);
 if (!$fp) {
     // echo "HOST ".$status[0]."<br>";
      $webhookurl = "https://discordapp.com/api/webhooks/711843027190284318/BaF7pnNtKghfd0SMV02oM-FzqVveaqKiEvW7vDx2u1yz2Tozwk0y44pFmJgVtfmwtI5l";
