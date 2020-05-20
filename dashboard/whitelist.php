@@ -29,20 +29,6 @@
         <link href="//charon.gg/favicon.png" rel="icon" type="images/png" />
       	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-        <script type="text/javascript">
-        var sheet = document.createElement('style');
-        sheet.innerHTML = "#main {opacity:0;}"; // your main content
-        element = document.getElementById('wrapper'); // your 'main content wrapper
-        element.appendChild(sheet);
-        setTimeout(function(){
-        sheet.innerHTML = "#main {opacity:1;}";
-        element.appendChild(sheet);
-        }, 400); // time to wait to start transition
-        </script>
-        <div class="wrapper">
-        <div id="main">Loading...</div>
-        </div>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166896483-1"></script>
