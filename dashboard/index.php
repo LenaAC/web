@@ -29,14 +29,15 @@
   <meta name="keywords" content="Charon">
   <link href="../bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link href="../favicon.png" rel="icon" type="images/png" />
   <link href="css/style.css" rel="stylesheet" />
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/main.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-         <script type="text/javascript">
+        <script type="text/javascript">
         var sheet = document.createElement('style');
         sheet.innerHTML = "#main {opacity:0;}"; // your main content
         element = document.getElementById('wrapper'); // your 'main content wrapper
@@ -87,15 +88,15 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid #ff00d4;
 }
 input[type=submit] {
-    padding:5px 15px; 
-    background:#ccc; 
+    padding:5px 15px;
+    background:#ccc;
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 </style>
-	
+
 	<body class="loading">
 		<div id="wrapper">
 			<div id="bg"></div>
@@ -144,7 +145,7 @@ body {
         <div class="navbar-header">
           <a class="navbar-brand" href="https://charon.gg/"><span style="text-shadow: 0px 0px 0.2em #ff00c4, 0px 0px 0.2em #ff00c4, 0px 0px 0.2em #ff00c4;font-weight:bold;color:black;text-transform: uppercase;letter-spacing: 10px;">Charon</span></a>
         </div>
-        <ul class="nav navbar-nav navbar-right">     
+        <ul class="nav navbar-nav navbar-right">
          <?php if ($_SESSION['discord']['user-id'] === '706685677877723137' && $_SESSION['discord']['user-id'] === '706685677877723137' ) { ?>&nbsp;<li>&nbsp;<button type="button" onclick="window.location.href='admin'" class="btn btn-default navbar-btn">Admin</button></li><?php } else { header("Location: admin"); } ?>
          &nbsp;<li>&nbsp;<button type="button" onclick="window.location.href='https://charon.gg/'" class="btn btn-default navbar-btn" style="background: url(https://cdn.discordapp.com/avatars/<?php echo $_SESSION['discord']['user-id'];?>/<?php echo $_SESSION['discord']['avatar-id'];?>.png); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;"><i class="fa fa-picture-o" style="opacity: 10%;"></i></button></li>
          <li><button style="border-left: 3px solid #ff00c4; border-right: 3px solid #ff00c4;" type="button" onclick="window.location.href='/'" class="btn btn-default navbar-btn"><i class="fa fa-user" style="opacity: 60%;"></i> <?php echo $_SESSION['discord']['username'];?>#<?php echo $_SESSION['discord']['discriminator'];?></li>&nbsp;<li><form method="post"><input style="display: none;" id="message" type="text" name="message"><button onClick="window.open('whitelist','windowname','width=650,height=650')" id="submit" class="btn btn-default navbar-btn" type="submit"><i style="color: #fff;" class="fa fa-plus"></i></a></form></button></li>
@@ -198,7 +199,7 @@ button:focus {
         <i>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Charon - All rights reserved.<br><a href="//dashboard.charon.gg"><img style="display: none; -webkit-filter: drop-shadow(1px 1px 0 #ff00c4) drop-shadow(-1px -1px 0 #ff00c4); filter: drop-shadow(1px 1px 0 #ff00c4) drop-shadow(-1px -1px 0 #ff00c4); width: 186px; height: 49px;" src="//charon.gg/black.png"></a><font color="white" style="font-size: 15px;">"uneasy lies the head that wears a crown"</font>
   <div style="position: absolute; bottom: 0; right: 20px; width: 100px; text-align:right; padding: 10px;">
     <div style="a:hover{color:#fff;}"> <a href="//secure-db.charon.gg"><?php echo   $ip = $_SERVER['REMOTE_ADDR']; ?> </a>
-  </div>   
+  </div>
  <footer>
 
 <audio id= "audio1"  onloadeddata="setHalfVolume()" autoplay>
@@ -209,14 +210,10 @@ button:focus {
 <script>
 function setHalfVolume() {
 
-    var myAudio = document.getElementById("audio1");  
+    var myAudio = document.getElementById("audio1");
     myAudio.volume = 0.2; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
 
 }
 </script>
 
 </html>
-
-
-
-

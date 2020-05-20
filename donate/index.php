@@ -12,8 +12,9 @@
 	<link href="../favicon.png" rel="icon" type="images/png">
 	<link href="../css/style.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-         <script type="text/javascript">
+        <script type="text/javascript">
         var sheet = document.createElement('style');
         sheet.innerHTML = "#main {opacity:0;}"; // your main content
         element = document.getElementById('wrapper'); // your 'main content wrapper
@@ -153,5 +154,3 @@
 	</footer>
 </body>
 </html>
-
-

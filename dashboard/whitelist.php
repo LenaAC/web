@@ -27,8 +27,9 @@
         <title>Memento mori</title>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
         <link href="//charon.gg/favicon.png" rel="icon" type="images/png" />
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-         <script type="text/javascript">
+        <script type="text/javascript">
         var sheet = document.createElement('style');
         sheet.innerHTML = "#main {opacity:0;}"; // your main content
         element = document.getElementById('wrapper'); // your 'main content wrapper
@@ -41,7 +42,7 @@
         <div class="wrapper">
         <div id="main">Loading...</div>
         </div>
-    
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166896483-1"></script>
@@ -66,13 +67,13 @@
 
     onbeforecopy = "return false"
 
-    ondragstart = "return false" 
+    ondragstart = "return false"
 
-    onselectstart = "return false" 
+    onselectstart = "return false"
 
-    oncontextmenu = "return false" 
+    oncontextmenu = "return false"
 
-    onselect = "document.selection.empty()" 
+    onselect = "document.selection.empty()"
 
     oncopy = "document.selection.empty()">
 
@@ -129,7 +130,7 @@ body::-webkit-scrollbar-thumb {
             }
             .logo {
                 position: absolute;
-                left: 0px;          
+                left: 0px;
                 top: 13px;
                 width: 100px;
                 min-width: 250px;
@@ -191,6 +192,3 @@ function change() {
 </script>
     </body>
 </html>
-
-
-

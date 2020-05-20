@@ -32,8 +32,9 @@
     <title>ACCESS</title>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="../favicon.png" rel="icon" type="images/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-         <script type="text/javascript">
+        <script type="text/javascript">
         var sheet = document.createElement('style');
         sheet.innerHTML = "#main {opacity:0;}"; // your main content
         element = document.getElementById('wrapper'); // your 'main content wrapper
@@ -120,6 +121,3 @@ body {
   overflow: hidden;
 }
         </style>
-
-
-

@@ -31,8 +31,9 @@
   <link href="../favicon.png" rel="icon" type="images/png" />
   <link href="../css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-         <script type="text/javascript">
+        <script type="text/javascript">
         var sheet = document.createElement('style');
         sheet.innerHTML = "#main {opacity:0;}"; // your main content
         element = document.getElementById('wrapper'); // your 'main content wrapper
@@ -77,7 +78,7 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid #ff00d4;
 }
 </style>
-  	  	
+
   	<style>
   	    @font-face {
   font-family:'barthowheel';
@@ -89,7 +90,7 @@ body {
   overflow: hidden;
 }
   	</style>
-  	
+
   <style>
   .btn-default{color:#00ff2b;background-color:#000;border-color:#00ff2b;border-radius:0px;}.navbar-inverse{background-color:#000;border-color: #ff00c4;}.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{color:#fff;background-color:#212121;border-color:#00ff2b;}.btn-default:hover{color:#fff;background-color:#000000;border-color:#00ff2b;}.btn-default.focus,.btn-default:focus{color:#fff;background-color:#000000;border-color:#00ff2b;}.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.dropdown-toggle.btn-default.focus,.open>.dropdown-toggle.btn-default:focus,.open>.dropdown-toggle.btn-default:hover{color:#fff;background-color:#000000;border-color:#00ff2b;}body{background:url(https://cdn.discordapp.com/attachments/709303214435991747/711973432446943372/dU18gto-min.gif) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-color:black;}.well{background-color:#000000;border: 1px solid #ff00c4;border-radius:0px;color:white;opacity:  0.9;}
   </style>
@@ -138,7 +139,7 @@ function setHalfVolume() {
         position: fixed;
         width: 100%;
     }
-    
+
     .footer {
         background: black;
         height: 75px;
@@ -157,6 +158,3 @@ function setHalfVolume() {
     <footer>
 
 <?php } else { header("Location: /"); } ?>
-
-
-

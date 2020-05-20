@@ -14,8 +14,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
 	</script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-         <script type="text/javascript">
+        <script type="text/javascript">
         var sheet = document.createElement('style');
         sheet.innerHTML = "#main {opacity:0;}"; // your main content
         element = document.getElementById('wrapper'); // your 'main content wrapper
@@ -113,7 +114,7 @@
 	       background-position: center;
 	       border: 1px solid #ff00c4;
 	   }
-	</style><audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="../villain.mp3" type="audio/mpeg"> villain</audio> 
+	</style><audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="../villain.mp3" type="audio/mpeg"> villain</audio>
 	<script>
 	function setHalfVolume() {
 
@@ -129,7 +130,7 @@
 	       position: fixed;
 	       width: 100%;
 	   }
-	   
+
 	   .footer {
 	       background: black;
 	       height: 75px;
@@ -150,6 +151,3 @@
 	</footer>
 </body>
 </html>
-
-
-
