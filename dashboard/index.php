@@ -105,7 +105,7 @@ input[type=submit] {
 				<!-- Header -->
 					<header id="header">
                                                  <h1>Welcome <?php echo $_SESSION['discord']['username'];?>!</h1>
-                                                <font style="color:white;"><p>Press the <i class="fa fa-plus"></i> icon in the upper-right menu <font color="#ff00c4"><b>once</b></font> to submit your whitelist request.<br><?php $members = json_decode(file_get_contents('https://discordapp.com/api/guilds/709579925824208966/widget.json'), true)['members']; $membersCount = 1; foreach ($members as $member) { if ($member['status'] == 'online') { $membersCount++; } } echo "Current Members: " . $membersCount; ?></p></font>
+                                                <font style="color:white;"><p>Press the <i class="fa fa-plus"></i> icon in the upper-right menu <font color="#ff00c4"><b>once</b></font> to submit your whitelist request.<br></font><font size="4%" style="opacity: 0px; color: #fff;"><?php $members = json_decode(file_get_contents('https://discordapp.com/api/guilds/709579925824208966/widget.json'), true)['members']; $membersCount = 1; foreach ($members as $member) { if ($member['status'] == 'online') { $membersCount++; } } echo "Current Members: " . $membersCount;?></p></font>
 						<nav>
 							<ul>
 								<li><a href="//url.charon.gg/twitter" class="icon fa-twitter" aria-hidden="true"><span class="label">Twitter</span></a></li>

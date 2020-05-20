@@ -79,7 +79,7 @@
 			<!-- Header -->
 			<header id="header">
 				<h1>Charon</h1><font style="color:white;"></font>
-				<p><font style="color:white;"><a href="https://disboard.org/server/709579925824208966" style="text-decoration: none;" target="_blank"><i class='fab fa-discord' style='font-size:30px;color:white;opacity:0px;'></i></a> &nbsp;&bull;&nbsp; DISCORD: dread#1337 &nbsp;&bull;&nbsp; XMPP: charon@creep.im &nbsp;&bull;&nbsp; SIGNAL: (515) 468-2023<br><?php $members = json_decode(file_get_contents('https://discordapp.com/api/guilds/709579925824208966/widget.json'), true)['members']; $membersCount = 1; foreach ($members as $member) { if ($member['status'] == 'online') { $membersCount++; } } echo "Current Members: " . $membersCount;?></font></p>
+				<p><font style="color:white;"><a href="https://disboard.org/server/709579925824208966" style="text-decoration: none;" target="_blank"><i class='fab fa-discord' style='font-size:30px;color:white;opacity:0px;'></i></a> &nbsp;&bull;&nbsp; DISCORD: dread#1337 &nbsp;&bull;&nbsp; XMPP: charon@creep.im &nbsp;&bull;&nbsp; SIGNAL: (515) 468-2023<br></font><font size="4%" style="opacity: 0px; color: #fff;"><?php $members = json_decode(file_get_contents('https://discordapp.com/api/guilds/709579925824208966/widget.json'), true)['members']; $membersCount = 1; foreach ($members as $member) { if ($member['status'] == 'online') { $membersCount++; } } echo "Current Members: " . $membersCount;?></font></p>
 				<nav>
 					<ul>
 						<li>
