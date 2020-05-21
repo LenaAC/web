@@ -135,7 +135,7 @@
   			 }
   			</style>
         <br>
-
+        <i style="font-size: 15px;" class="fa fa-history"></i>
   			<br>
   			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>&nbsp;<i style="color: #a5a5a5;"><i class="fa fa-cog"></i> <a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
   		</div>
