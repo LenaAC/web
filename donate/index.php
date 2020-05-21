@@ -108,10 +108,13 @@
 			 }
 			</style><br>
 			<div>
-				<a class="donate-with-crypto" href="https://commerce.coinbase.com/checkout/7927974e-e13c-4ab8-b9bf-cb8127b40b94">Donate with Crypto</a>
-				<script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
-				</script>
-			</div><br>
+  <a class="donate-with-crypto"
+     href="https://commerce.coinbase.com/checkout/2e56aa02-8baf-4e94-9aa8-2a77ce230cd2">
+    Donate with Crypto
+  </a>
+  <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+  </script>
+</div><br>
 			<b><i class="fa fa-bitcoin"></i> <font color="#F2A900">3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4</font></b><br>
 			<b>Ethereum: <font color="#ECF0F1">charon.eth</font></b><br>
 			<br>
