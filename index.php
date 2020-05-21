@@ -138,7 +138,7 @@ $response = curl_exec( $ch );
 							<a aria-hidden="true" class="icon fa-key" href="https://keybase.io/mythical"><span class="label">Keybase</span></a>
 						</li>
 						<li>
-							<a aria-hidden="true" class="icon fa-btc" href="//charon.gg/donate/"><span class="label">Donate</span></a>
+							<a aria-hidden="true" class="icon fa-btc" href="/donate/"><span class="label">Donate</span></a>
 						</li>
 						<li>
 							<a aria-hidden="true" class="icon fa-envelope-o" href="mailto:contact@charon.gg"><span class="label">Email</span></a>
