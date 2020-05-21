@@ -175,7 +175,7 @@
   	<footer>
   		<div class="footer">
   			Copyright <i aria-hidden="true" class="fa fa-copyright"></i> Charon - All rights reserved.<br>
-  			<b><a href="../terms-and-conditions/" style="text-decoration: none;"><font color="#FF00C4" size="1">Terms and Conditions</font></a></b>
+  			<b><a href="//charon.gg/terms-and-conditions/" style="text-decoration: none;"><font color="#FF00C4" size="1">Terms and Conditions</font></a></b>
   			<footer></footer>
   		</div>
   	</footer>
