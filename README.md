@@ -5,3 +5,5 @@ Add Discord Client ID & Secret to the config file, then edit the urls ''/dashboa
 Set redirect URI to http://website.url/login
 
 Add Discord webhook url to ''/dashboard/index.php''
+
+ADD ME ON DISCORD tatsu#4234
