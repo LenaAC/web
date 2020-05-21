@@ -140,8 +140,8 @@
   			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>&nbsp;<i style="color: #a5a5a5;"><i class="fa fa-cog"></i> <a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
   		</div>
     <style>
-    bcus:hover {
-      background-color: #fff;
+    #bcus:hover {
+      color: #fff;
     }
     </style>
   	</div><audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="../villain.mp3" type="audio/mpeg"> villain</audio>
