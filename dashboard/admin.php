@@ -116,10 +116,10 @@
   				<div id="container2"></div></a>
   			</center>
   			<hr style="border-top:3px solid #ff00c4;">
-  			<b>Donate</b><br>
+  			<b>Admin Dashboard</b><br>
   			<br>
-  			Make a Donation to our website.<br>
-  			<span style="font-size: 10px; border: 1px solid #ff00c4; border-radius: 3px; padding: 3px;"><i class="fa fa-info-circle"></i> We do not collect any personal information, we just receive your donation.</span><br>
+  			Administrators of the website.<br>
+  			<span style="font-size: 10px; border: 1px solid #ff00c4; border-radius: 3px; padding: 3px;"><i class="fa fa-info-circle"></i> <?php echo $_SESSION['discord']['user-id'];?> is currently whitelisted to access this page.</span><br>
   			<style type="text/css">
   			 #container2{
   			     text-align: center;
