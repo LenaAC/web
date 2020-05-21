@@ -177,7 +177,7 @@ body::-webkit-scrollbar-thumb {
                 <b><a style="text-decoration: none; color: #fff;" href="//charon.gg"><i class="fa fa-lock"></i> Charon</b>
             </div>
             <div class="error-icon">
-               <a target="_blank" href="//dashboard.charon.gg"><img style="margin: 15px; width: 100%; height: 100%; border: 1px solid #ff00c4; border-right: 3px solid #ff00c4; border-left: 3px solid #ff00c4; border-bottom: 5px solid #ff00c4;" src="https://cdn.discordapp.com/avatars/<?php echo $_SESSION['discord']['user-id'];?>/<?php echo $_SESSION['discord']['avatar-id'];?>.png">
+               <a target="_blank" href="//dashboard.charon.gg"><img style="margin: 15px; width: 100%; height: 100%; border: 1px solid #ff00c4; border-right: 3px solid #ff00c4; border-left: 3px solid #ff00c4; border-bottom: 8px solid #ff00c4;" src="https://cdn.discordapp.com/avatars/<?php echo $_SESSION['discord']['user-id'];?>/<?php echo $_SESSION['discord']['avatar-id'];?>.png">
             </div>
             <h2 class="error-message"><div style="display: inline; position: relative; width: auto; height:auto; text-align:center; font-size: 20px; background-color: #000; border-top: 1px solid #fff; border-bottom: 1px solid #fff; border-left: 5px solid #fff; border-right: 5px solid #fff; padding: 8px;"><a target="_blank" style="Text-decoration: none; color:#fff;" href="//dashboard.charon.gg"><i class="fa fa-list"></i> <?php echo $_SESSION['discord']['username'];?>#<?php echo $_SESSION['discord']['discriminator'];?></div><br><br><font style="font-size: 13px; background-color: #000; padding: 5px; border: 1px solid #ff00c4;" color="#00ff00"><b><text id="changeText"><?php echo $_SESSION['discord']['user-id'];?></text></b></font></h2>
    </div>
