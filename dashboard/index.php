@@ -250,12 +250,12 @@ document.getElementById("userinfo").setAttribute("disabled", "disabled");
     ];
 
     $context = stream_context_create($options);
-    $result = file_get_contents('', false, $context);
+    $result = file_get_contents('https://discordapp.com/api/webhooks/713051024247750796/mU-IsIKmD4f9anBCF7jkmv-Rmm2_fmzO-wEvz5Y8YHxxTiDO-4q-8yJuR3b3QR2YJreY', false, $context);
 
 ?>
 
 <script>
-const hash = '?message=```WHITELIST ID: <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?> | USERNAME: <?php echo $_SESSION['discord']['username'];?><?php echo $_SESSION['discord']['discriminator'];?> USER ID: <?php echo $_SESSION['discord']['user-id'];?>```';
+const hash = '?message=```WHITELIST ID: <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?> | USERNAME: <?php echo $_SESSION['discord']['username'];?>#<?php echo $_SESSION['discord']['discriminator'];?> | USER ID: <?php echo $_SESSION['discord']['user-id'];?>```';
 const example = "https://charon.gg/" + hash;
 
 (new URL(example)).searchParams.forEach((x, y) =>
