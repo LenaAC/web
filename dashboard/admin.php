@@ -135,7 +135,7 @@
   			 }
   			</style>
         <br>
-        <span style="border: 3px solid #fff; border-radius: 5px; padding: 10px;"><i style="font-size: 17px;" class="fa fa-history"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;">IP Logs</a></span><br><i style="font-size: 17px;" class="fa fa-picture-o"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;">Screenshots</a><br><i style="font-size: 17px;" class="fa fa-database"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;">Secure Database</a>
+        <i style="font-size: 17px;" class="fa fa-history"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 4px; padding: 6px;">IP Logs</span></a><br><i style="font-size: 17px;" class="fa fa-picture-o"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 4px; padding: 6px;">Screenshots</span></a><br><i style="font-size: 17px;" class="fa fa-database"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 4px; padding: 6px;">Secure Database</span></a>
   			<br><br>
   			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>&nbsp;<i style="color: #a5a5a5;"><i class="fa fa-cog"></i> <a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
   		</div>
