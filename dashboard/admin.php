@@ -26,11 +26,11 @@
   	<meta content="1000;https://charon.gg/" http-equiv="refresh">
   	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  	<link href="../css/bootstrap.min.css" rel="stylesheet">
+  	<link href="../bootstrap.min.css" rel="stylesheet">
   	<meta content="admin@charon.gg" name="description">
   	<meta content="charon" name="keywords">
   	<link href="../favicon.png" rel="icon" type="images/png">
-  	<link href="../css/style.css" rel="stylesheet">
+  	<link href="css/style.css" rel="stylesheet">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
           <script type="text/javascript">
