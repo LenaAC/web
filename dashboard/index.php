@@ -176,7 +176,7 @@ input[type=submit] {
 								<li><a href="//url.charon.gg/twitter" class="icon fa-twitter" aria-hidden="true"><span class="label">Twitter</span></a></li>
 								<li><a href="https://t.me/myth1c4l" class="icon fa-telegram" aria-hidden="true"><span class="label">Telegram</span></a></li>
 								<li><a href="https://keybase.io/mythical" class="icon fa-key" aria-hidden="true"><span class="label">Keybase</span></a></li>
-								<li><a href="//charon.gg/donate/" class="icon fa-btc" aria-hidden="true"><span class="label">Donate</span></a></li>
+								<li><a href="../donate/" class="icon fa-btc" aria-hidden="true"><span class="label">Donate</span></a></li>
 								<li><a href="mailto:contact@charon.gg" class="icon fa-envelope-o" aria-hidden="true"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
