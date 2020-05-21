@@ -135,7 +135,7 @@
   			 }
   			</style>
         <br>
-        <i style="font-size: 30px;" class="fa fa-history"></i>&nbsp; <a href="#" style="font-size: 30px; text-decoration: none;">IP Logs</a>&nbsp;|&nbsp;<i style="font-size: 30px;" class="fa fa-picture-o"></i>&nbsp; <a href="#" style="font-size: 30px; text-decoration: none;">Screenshots</a>&nbsp;|&nbsp;
+        <i style="font-size: 17px;" class="fa fa-history"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;">IP Logs</a><br><i style="font-size: 17px;" class="fa fa-picture-o"></i>&nbsp; <a href="#" style="font-size: 17px; text-decoration: none;">Screenshots</a><br>
   			<br>
   			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>&nbsp;<i style="color: #a5a5a5;"><i class="fa fa-cog"></i> <a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
   		</div>
