@@ -6,7 +6,7 @@ Add Discord Client ID & Secret to the config file, then edit the urls ''/dashboa
 
 Add Discord webhook url to ''/dashboard/index.php''</i>
 
-ADD ME ON DISCORD <strong>dread#1337</strong>
+ADD ME ON DISCORD <strong>tatsu#1337</strong>
 
 <strong>Bitcoin</strong> 3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4<br>
 <strong>Ethereum</strong> charon.eth<br>
