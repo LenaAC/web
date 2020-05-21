@@ -6,9 +6,9 @@ Set redirect URI to http://website.url/login
 
 Add Discord webhook url to ''/dashboard/index.php''
 
-ADD ME ON DISCORD dread#1337
+ADD ME ON DISCORD <strong>dread#1337</strong>
 
-3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4<br>
-charon.eth<br>
+<strong>Bitcoin</strong> 3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4<br>
+<strong>Etheurum</strong> charon.eth<br>
 https://ko-fi.com/charongh
 
