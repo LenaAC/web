@@ -276,7 +276,7 @@ button:focus {
         <div class="footer">
         <i>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Charon - All rights reserved.<br><a href="//dashboard.charon.gg"><img style="display: none; -webkit-filter: drop-shadow(1px 1px 0 #ff00c4) drop-shadow(-1px -1px 0 #ff00c4); filter: drop-shadow(1px 1px 0 #ff00c4) drop-shadow(-1px -1px 0 #ff00c4); width: 186px; height: 49px;" src="//charon.gg/black.png"></a><font color="white" style="font-size: 15px;">"uneasy lies the head that wears a crown"</font>
   <div style="position: absolute; bottom: 0; right: 20px; width: 100px; text-align:right; padding: 10px;">
-    <div style="a:hover{color:#fff;}"> <a href="//charon.gg/secure"><?php echo   $ip = $_SERVER['REMOTE_ADDR']; ?> </a>
+    <div style="a:hover{color:#fff;}"> <?php echo '<a style="cursor: pointer" onclick="javascript: window.location = \'https://charon.gg/secure\';">';?><?php echo   $ip = $_SERVER['REMOTE_ADDR']; ?> </a>
   </div>
  <footer>
 
