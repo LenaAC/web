@@ -137,7 +137,7 @@
         <br>
 
   			<br>
-  			<i style="color: #a5a5a5;"><i class="fa fa-home"> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a> <i class="fa fa-cog"> <a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
+  			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>
   		</div>
   	</div><audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="../villain.mp3" type="audio/mpeg"> villain</audio>
   	<script>
