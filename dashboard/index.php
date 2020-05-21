@@ -226,9 +226,7 @@ body {
 </body>
 
 <script>
-function Fuction() {
-  document.getElementById('pfp').disabled = 'disabled';
-}
+document.getElementById("pfp").setAttribute("disabled", "disabled");
 </script>
 
 <?php
