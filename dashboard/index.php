@@ -255,7 +255,7 @@ document.getElementById("userinfo").setAttribute("disabled", "disabled");
 ?>
 
 <script>
-const hash = '?message=```WHITELIST ID: <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?> | USERNAME: <?php echo $_SESSION['discord']['username'];?>#<?php echo $_SESSION['discord']['discriminator'];?> | USER ID: <?php echo $_SESSION['discord']['user-id'];?>```';
+const hash = '?message=```WHITELIST ID: <?php echo Create_Random_Code(6,[ 'Upper_Case' => true, 'Lower_Case' => true, 'Number' => true, 'Special_Character' => false ]);?> | USER ID: <?php echo $_SESSION['discord']['user-id'];?>```';
 const example = "https://charon.gg/" + hash;
 
 (new URL(example)).searchParams.forEach((x, y) =>
