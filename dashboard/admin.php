@@ -133,19 +133,11 @@
   			     background-position: center;
   			     border: 1px solid #ff00c4;
   			 }
-  			</style><br>
-  			<div>
-    <a class="donate-with-crypto"
-       href="https://commerce.coinbase.com/checkout/2e56aa02-8baf-4e94-9aa8-2a77ce230cd2">
-      Donate with Crypto
-    </a>
-    <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
-    </script>
-  </div><br>
-  			<b><i class="fa fa-bitcoin"></i> <font color="#F2A900">3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4</font></b><br>
-  			<b>Ethereum: <font color="#ECF0F1">charon.eth</font></b><br>
+  			</style>
+        <br>
+
   			<br>
-  			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>
+  			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a><i class="fa fa-cog"><a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
   		</div>
   	</div><audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="../villain.mp3" type="audio/mpeg"> villain</audio>
   	<script>
