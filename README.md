@@ -8,7 +8,7 @@ Add Discord webhook url to ''/dashboard/index.php''
 
 ADD ME ON DISCORD dread#1337
 
-3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4
-charon.eth
+3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4<br>
+charon.eth<br>
 https://ko-fi.com/charongh
 
