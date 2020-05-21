@@ -135,7 +135,7 @@
   			 }
   			</style>
         <br>
-        <a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 3px; padding: 2px;"><i class="fa fa-history"></i> IP Logs</span></a><br style="padding: 9px;"><a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 3px; padding: 2px;"><i class="fa fa-picture-o"></i> Screenshots</span></a><br style="padding: 9px;"><a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 3px; padding: 2px;"><i class="fa fa-database"></i> Secure Database</span></a>
+        <a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 3px; padding: 2px;"><i class="fa fa-history"></i> IP Logs</span></a><br style="padding: 13px;"><a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 3px; padding: 2px;"><i class="fa fa-picture-o"></i> Screenshots</span></a><br style="padding: 13px;"><a href="#" style="font-size: 17px; text-decoration: none;"><span style="border: 1px solid #fff; border-radius: 3px; padding: 2px;"><i class="fa fa-database"></i> Secure Database</span></a>
   			<br><br>
   			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>&nbsp;<i style="color: #a5a5a5;"><i class="fa fa-cog"></i> <a href="https://dashboard.charon.gg/" style="color: #a5a5a5;">Dashboard</a></i>
   		</div>
