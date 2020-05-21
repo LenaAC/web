@@ -9,7 +9,7 @@ $status = array("OFFLINE", "ONLINE");
 $fp = @fsockopen($site, $port, $errno, $errstr, 2);
 if (!$fp) {
     // echo "HOST ".$status[0]."<br>";
-     $webhookurl = "https://discordapp.com/api/webhooks/711843027190284318/BaF7pnNtKghfd0SMV02oM-FzqVveaqKiEvW7vDx2u1yz2Tozwk0y44pFmJgVtfmwtI5l";
+     $webhookurl = "";
 // $msg = "HOST ".$status[0]."";
      $msg = "```diff
 - HOMEPAGE ".$status[0]." at ".date("l").", ".date("d F 20y")."```";
@@ -27,7 +27,7 @@ $response = curl_exec( $ch );
 } else
   {
    //   echo "HOST ".$status[1]."<br>";
-     $webhookurl = "https://discordapp.com/api/webhooks/711843027190284318/BaF7pnNtKghfd0SMV02oM-FzqVveaqKiEvW7vDx2u1yz2Tozwk0y44pFmJgVtfmwtI5l";
+     $webhookurl = "";
      // $msg = "Host ".$status[1]."";
       $msg = "```diff
 + HOMEPAGE ".$status[1]." at ".date("l").", ".date("d F 20y")."```";
