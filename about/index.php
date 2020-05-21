@@ -4,14 +4,20 @@
 <html>
 <head>
 	<title>Charon | About</title>
-	<meta content="1000;https://charon.gg/" http-equiv="refresh">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<meta content="admin@charon.gg" name="description">
 	<meta content="charon" name="keywords">
-	<link href="../favicon.png" rel="icon" type="images/png">
-	<link href="../css/style.css" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
+	<meta content="1000;https://charon.gg/" http-equiv="refresh">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+	<link rel="manifest" href="../images/site.webmanifest">
+	<link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
 				<script type="text/javascript">
@@ -27,6 +33,8 @@
         <div class="wrapper">
         <div id="main">Loading...</div>
         </div>
+
+					<!-- Global site tag (gtag.js) - Google Analytics -->
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166896483-1">
 	</script>
