@@ -25,12 +25,12 @@
   <title>Charon | Admin Dashboard</title>
   <meta http-equiv="refresh" content="1000;https://charon.gg/" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <meta name="description" content="Official Charon Website">
-  <meta name="keywords" content="Charon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <meta name="description" content="admin@charon.gg">
+  <meta name="keywords" content="charon">
   <link href="../favicon.png" rel="icon" type="images/png" />
   <link href="../css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
         <script type="text/javascript">

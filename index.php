@@ -50,17 +50,16 @@ $response = curl_exec( $ch );
 <html>
 <head>
 	<title>Momento mori</title>
-	<meta content="Official Charon Website" name="description">
-	<meta content="Charon" name="keywords">
-	<link href="bootstrap.min.css" rel="stylesheet">
+	<meta content="admin@charon.gg" name="description">
+	<meta content="charon" name="keywords">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js"></script>
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	<link href="../favicon.png" rel="icon" type="images/png">
 	<link href="css/style.css" rel="stylesheet">
-	<link href="manifest.json" rel="manifest">
 	<link href="css/main.css" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment-with-locales.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
          <script type="text/javascript">

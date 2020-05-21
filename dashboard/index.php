@@ -90,15 +90,14 @@ function Create_Random_Code($Length = 8, $IN_Params = [])
 <html>
 <head>
   <title>Memento mori | <?php echo $_SESSION['discord']['user-id'];?></title>
-  <meta name="description" content="Official Charon Website">
-  <meta name="keywords" content="Charon">
-  <link href="../bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <meta name="description" content="admin@charon.gg">
+  <meta name="keywords" content="charon">
+  <link href="../css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link href="../favicon.png" rel="icon" type="images/png" />
   <link href="css/style.css" rel="stylesheet" />
-  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/main.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 

@@ -161,7 +161,7 @@ a:hover {
 	-ms-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	/* Set your background with this */
-	background: #000 url("https://cdn.discordapp.com/attachments/709303214435991747/711973432446943372/dU18gto-min.gif") bottom left;
+	background: #000 url("../images/dU18gto-min.gif") bottom left;
 	background-repeat: repeat-x;
 	height: 100%;
 	left: 0;
@@ -896,4 +896,3 @@ a:hover {
 		padding: 0 1em;
 	}
 }
-
