@@ -101,7 +101,7 @@
 			<b>Dashboard</b><br>
 			<br>
 			Login to our Dashboard to request whitelisting your Discord account to access our Discord Server.<br>
-			<span style="font-size: 10px; border: 1px solid #ff00c4; border-radius: 3px; padding: 3px;"><i class="fa fa-info-circle"></i> DASHBOARD PASSWORD: <font color="#fff">CHARON</font>.</span><br>
+			<span style="font-size: 10px; border: 1px solid #ff00c4; border-radius: 3px; padding: 3px;"><i class="fa fa-info-circle"></i> DASHBOARD PASSWORD: <font color="#fff">CHARON</font></span><br>
 			<br>
 			We thank everyone that has contacted us so far, for now if you do not have access feel free to watch our <a href="https://dlive.tv/villain" style="color: #ffd900; text-decoration: none;" target="_blank"><b>DLive Streams</b></a>.<br>
 			<br>
