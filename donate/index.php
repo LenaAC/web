@@ -123,7 +123,7 @@
   <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
   </script>
 </div><br>
-			<b><i class="fa fa-bitcoin"></i> <font color="#F2A900"><span>3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4</span></font></b><br>
+			<b><i class="fa fa-bitcoin"></i> <font color="#F2A900"><span class="class">3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4</span></font></b><br>
 			<b>Ethereum: <font color="#ECF0F1">charon.eth</font></b><br>
 			<br>
 			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>
@@ -139,19 +139,20 @@
 	}
 	</script>
 	<script>
-	const span = document.querySelector("span");
+	spans = document.querySelectorAll(".class");
+	for (const span of spans) {
+	  span.onclick = function() {
+	    document.execCommand("copy");
+	  }
 
-span.onclick = function() {
-  document.execCommand("copy");
-}
-
-span.addEventListener("copy", function(event) {
-  event.preventDefault();
-  if (event.clipboardData) {
-    event.clipboardData.setData("text/plain", span.textContent);
-    console.log(event.clipboardData.getData("text"))
-  }
-});
+	  span.addEventListener("copy", function(event) {
+	    event.preventDefault();
+	    if (event.clipboardData) {
+	      event.clipboardData.setData("text/plain", span.textContent);
+	      console.log(event.clipboardData.getData("text"))
+	    }
+	  });
+	}
 </script>
 	<style>
 	   footer{
