@@ -195,7 +195,7 @@
 			<h2></h2>
 			<p></p>
 			<h2>Credit & Contact Information</h2>
-			<p>This Terms and conditions page was created at <a href="https://charon.gg/" style="color:inherit;text-decoration:none;cursor:text;">5/15/2020</a>. If you have any queries regarding any of our terms, please contact us.</p><i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>
+			<p>This Terms and conditions page was created at <a href="https://charon.gg/" style="color:inherit;text-decoration:none;cursor:text;">5/15/2020</a>. If you have any queries regarding any of our terms, please contact us.</p><br><i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>
 		</div>
 	</div>
 	<p style="padding-bottom: 75px;"></p><audio autoplay="" id="audio1" onloadeddata="setHalfVolume()"><source src="../villain.mp3" type="audio/mpeg"> villain</audio>
