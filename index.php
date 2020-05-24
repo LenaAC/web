@@ -180,10 +180,10 @@ $response = curl_exec( $ch );
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li style="list-style: none">&nbsp;</li>
-					<li>&nbsp;<i class="icon fa-btc" style="right: -23px; top: 1px; padding-left: 24px; font-size: 18px; color: #ff00c4;"></i><button class="btn btn-default navbar-btn" onclick="window.location.href='https://bitcointicker.co/'" style="width:88px;" type="button">
+					<li>&nbsp;<i class="icon fa-btc" style="right: -23px; top: 1px; padding-left: 24px; font-size: 18px; color: #F7931A;"></i><button class="btn btn-default navbar-btn" onclick="window.location.href='https://bitcointicker.co/'" style="width:90px; border: 1px solid #F7931A; background-color: #000;" type="button">
 					<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 					<div class="contain">
-						<div id="price" style="padding-left: 15px;">&nbsp;</div>
+						<div id="price" style="padding-left: 15px; color: #F7931A;">&nbsp;</div>
 					</div></button></li>
 					<li style="list-style: none">&nbsp;</li>
 					<li><button class="btn btn-default navbar-btn" onclick="window.location.href='https://shoppy.gg/@Hermes'" type="button"><i class="fa fa-shopping-bag"></i> Store</button></li>
