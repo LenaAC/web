@@ -186,11 +186,11 @@ $response = curl_exec( $ch );
 						<div id="price" style="padding-left: 15px;">&nbsp;</div>
 					</div></button></li>
 					<li style="list-style: none">&nbsp;</li>
-					<li><button class="btn btn-default navbar-btn" onclick="window.location.href='https://b.charon.gg/'" type="button"><i class="fa fa-sticky-note"></i></button></li>
+					<li><button class="btn btn-default navbar-btn" onclick="window.location.href='https://shoppy.gg/@Hermes'" type="button"><i class="fa fa-shopping-bag"></i> Store</button></li>
 					<li style="list-style: none">&nbsp;</li>
 					<li><button class="btn btn-default navbar-btn" onclick="window.location.href='access-dashboard'" type="button"><i class="fa fa-user"></i> Dashboard</button></li>
 					<li style="list-style: none">&nbsp;</li>
-					<li><button class="btn btn-default navbar-btn" onclick="window.location.href='about'" type="button"><i class="fa fa-question"></i></button></li>
+					<li><button class="btn btn-default navbar-btn" onclick="window.location.href='about'" type="button"><i class="fa fa-question"></i> Help</button></li>
 				</ul>
 			</div>
 		</div>

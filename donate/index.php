@@ -123,8 +123,8 @@
   <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
   </script>
 </div><br>
-			<b><i class="fa fa-bitcoin"></i> <font color="#F2A900"><span class="class">3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4</span></font></b><br>
-			<b>Ethereum: <font color="#ECF0F1"><span class="class">charon.eth</span></font></b><br>
+			<b><i class="fa fa-bitcoin"></i> <font color="#F2A900"><span style="cursor: pointer;" class="class">3MtaBNYmmgRr7wvYkuoMSR6fDouprMLTr4</span> <i style="color: #fff; cursor: pointer;" class="fa fa-clone"></i></font></b><br>
+			<b>Ethereum: <font color="#ECF0F1"><span style="cursor: pointer;" class="class">charon.eth</span> <i style="color: #fff; cursor: pointer;" class="fa fa-clone"></i></font></b><br>
 			<br>
 			<i style="color: #a5a5a5;"><i class="fa fa-home"></i> <a href="https://charon.gg/" style="color: #a5a5a5;">Charon</a></i>
 		</div>
