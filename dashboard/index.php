@@ -95,6 +95,7 @@ function Create_Random_Code($Length = 8, $IN_Params = [])
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://kit.fontawesome.com/68bd963c29.js" crossorigin="anonymous"></script>
   <link href="bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
   <link href="css/style.css" rel="stylesheet"/>
   <link href="css/main.css" rel="stylesheet"/>
