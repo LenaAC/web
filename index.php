@@ -130,7 +130,7 @@ $response = curl_exec( $ch );
 			<!-- Header -->
 			<header id="header">
 				<h1>Charon</h1><font style="color:white;"></font>
-				<p><font style="color:white;"><a href="https://disboard.org/server/713050126075035670" style="text-decoration: none;" target="_blank"><i class='fab fa-discord' style='font-size:30px;color:white;opacity:0px;vertical-align:middle;display:inline;'></i></a> &nbsp;&bull;&nbsp; DISCORD: tatsu#1337 &nbsp;&bull;&nbsp; XMPP: charon@creep.im &nbsp;&bull;&nbsp; SIGNAL: (515) 468-2023<br></font><font size="4%" style="opacity: 0px; color: #fff;"><?php $members = json_decode(file_get_contents('https://discordapp.com/api/guilds/709579925824208966/widget.json'), true)['members']; $membersCount = 1; foreach ($members as $member) { if ($member['status'] == 'online') { $membersCount++; } } echo "Current Members: " . $membersCount;?></font></p>
+				<p><font style="color:white;"><a href="https://disboard.org/server/713050126075035670" style="text-decoration: none;" target="_blank"><i class='fab fa-discord' style='font-size:30px;color:white;opacity:0px;vertical-align:middle;display:inline;'></i></a> &nbsp;&bull;&nbsp; DISCORD: tatsu#1337 &nbsp;&bull;&nbsp; XMPP: charon@creep.im &nbsp;&bull;&nbsp; SIGNAL: 1+ (515) 468-2023<br></font><font size="4%" style="opacity: 0px; color: #fff;"><?php $members = json_decode(file_get_contents('https://discordapp.com/api/guilds/709579925824208966/widget.json'), true)['members']; $membersCount = 1; foreach ($members as $member) { if ($member['status'] == 'online') { $membersCount++; } } echo "Current Members: " . $membersCount;?></font></p>
 				<nav>
 					<ul>
 						<li>
@@ -180,7 +180,7 @@ $response = curl_exec( $ch );
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li style="list-style: none">&nbsp;</li>
-					<li>&nbsp;<i class="icon fa-btc" style="right: -23px; top: 1px; padding-left: 25px; font-size: 18px; color: #ff00c4;"></i><button class="btn btn-default navbar-btn" onclick="window.location.href='https://bitcointicker.co/'" style="width:100px;" type="button">
+					<li>&nbsp;<i class="icon fa-btc" style="right: -23px; top: 1px; padding-left: 24px; font-size: 18px; color: #ff00c4;"></i><button class="btn btn-default navbar-btn" onclick="window.location.href='https://bitcointicker.co/'" style="width:88px;" type="button">
 					<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 					<div class="contain">
 						<div id="price" style="padding-left: 15px;">&nbsp;</div>
